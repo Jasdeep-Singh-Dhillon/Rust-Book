@@ -38,4 +38,10 @@ fn main() {
     } else {
         println!("Number is not divisible by 2, 3 or 4");
     }
+
+    // if statement in let statement
+    let condition = number % 2 == 0;
+    let number = if condition {2} else {3};
+
+    println!("The value of number is {number}");
 }
