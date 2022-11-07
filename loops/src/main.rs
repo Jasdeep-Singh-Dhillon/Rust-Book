@@ -27,4 +27,11 @@ fn main() {
         number -= 1;    // Shorthand for subtracting 1 
     }
     println!("While loop finished");
+
+    // For loop
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("The value is {element}");
+    }
 }
