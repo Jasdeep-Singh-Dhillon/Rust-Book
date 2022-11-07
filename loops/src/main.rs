@@ -34,4 +34,10 @@ fn main() {
     for element in a {
         println!("The value is {element}");
     }
+
+    // Reverse for loop
+    for number in (1..4).rev() {
+        println!("{number}");
+    }
+    println!("FINISHED FOR LOOP");
 }
