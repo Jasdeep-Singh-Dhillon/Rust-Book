@@ -18,4 +18,13 @@ fn main() {
         count += 1;
     }
     println!("End count = {count}");
+
+    // While loop
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}");
+        number -= 1;    // Shorthand for subtracting 1 
+    }
+    println!("While loop finished");
 }
