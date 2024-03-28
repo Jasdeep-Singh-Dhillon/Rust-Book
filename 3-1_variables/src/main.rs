@@ -23,3 +23,4 @@ fn main() {
 
     println!("The value of x after completing execution of inner scope is {x}");
 }
+//asdasdasdasda
